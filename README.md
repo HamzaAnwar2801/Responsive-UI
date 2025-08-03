@@ -16,9 +16,29 @@ Features
 
  
  Project Structure :
+
+
+
+
+ 
                    landing-page/
+
+
+
+
+     
 ├── index.html        # Main HTML file (page layout & content)
+
+
+
+
+
 ├── styles.css        # External stylesheet (all design, layout, and responsive rules)
+
+
+
+
+
 └── script.js         # JavaScript (dropdown & mobile menu handling)
 
 
