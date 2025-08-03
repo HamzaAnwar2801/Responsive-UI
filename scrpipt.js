@@ -1,4 +1,4 @@
-// Dropdown support on mobile/tablet (click) and nav toggle
+// Dropdown support 
 
 document.querySelector('.menu-toggle').addEventListener('click', () => {
   document.querySelector('.nav-links').classList.toggle('active');
@@ -23,4 +23,5 @@ window.addEventListener('resize', () => {
     document.querySelector('.nav-links').classList.remove('active');
     document.querySelectorAll('.dropdown-menu').forEach(menu => menu.classList.remove('show'));
   }
+
 });
